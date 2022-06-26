@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #target_website {
+                position:relative;
+                width:1500px;
+                height:900px;
+            
+                z-index:2;
+                }
+            #decoy_website {
+                position:absolute;
+                width:750px;
+                height:500px;
+                z-index:1;
+                }
+        </style>
+    </head>
+    ...
+    <body>s
+        <div id="decoy_website">
+        ...decoy web content here...
+        </div>
+        <iframe id="target_website" src="">
+        </iframe>
+    </body>
+</html>
