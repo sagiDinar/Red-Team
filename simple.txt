@@ -1,1 +1,0 @@
-Set-Content -Path oz.exe -Value ([System.Convert]::FromBase64String((Get-Content ".\eliko-ps.b64"))) -Encoding Byte;
